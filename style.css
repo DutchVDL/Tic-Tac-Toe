@@ -1,0 +1,123 @@
+/*body {
+  background-color: wheat;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: sienna;
+  border: sienna;
+  background-color: wheat;
+  padding: 30px;
+}
+
+.cells {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: auto;
+}
+
+#one,
+#four,
+#seven {
+  border-left: none;
+}
+
+#one,
+#two,
+#three {
+  border-top: none;
+}
+
+#nine,
+#seven,
+#eight {
+  border-bottom: none;
+}
+
+#three,
+#six,
+#nine {
+  border-right: none;
+}
+
+.cell {
+  border: rgb(244, 165, 96) solid;
+  height: 100px;
+  cursor: pointer;
+  font-size: 70px;
+  color: rgb(244, 165, 96);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: rgba(163, 6, 14, 0.678);
+}
+
+.button {
+  color: rgb(107, 0, 0);
+  border-style: solid;
+
+  padding: 10px;
+  background-color: rgb(244, 165, 96);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+*/
+
+body {
+  background-color: wheat;
+  text-align: center;
+}
+
+.cells {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 30rem;
+  margin: auto;
+}
+
+.cell {
+  border: rgb(244, 165, 96) solid;
+  height: 10rem;
+  cursor: pointer;
+  font-size: 7rem;
+  color: rgb(244, 165, 96);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  background-color: rgba(163, 6, 14, 0.678);
+}
+
+button {
+  color: rgb(107, 0, 0);
+  width: 10rem;
+  height: 4rem;
+  background-color: rgb(244, 165, 96);
+  border-radius: 3rem;
+  margin-top: 1.5rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  cursor: pointer;
+  color: rgb(244, 165, 96);
+  background-color: rgb(107, 0, 0);
+}
